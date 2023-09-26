@@ -263,6 +263,8 @@ nav>ul>li>a:hover {
   .download-container>button {
     padding: 3vw 5vw;
     font-size: 4.4vw;
+    border: 2px #212429 solid;
+    color: #212429;
   }
 
   .projects-container {
