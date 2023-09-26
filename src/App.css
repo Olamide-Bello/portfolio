@@ -204,8 +204,15 @@ nav>ul>li>a:hover {
   text-align: center;
 }
 
+.hamburger,
+.menu {
+  display: none;
+}
+
+
+
 @media(max-width: 780px) {
-  nav ul {
+  nav>ul {
     display: none;
   }
 
@@ -327,5 +334,46 @@ nav>ul>li>a:hover {
   .projects>h3,
   .skills>h3 {
     font-size: 4.4vw;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .menu {
+    display: block;
+    position: fixed;
+    width: 50vw;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    padding: 5vw 4vw;
+  }
+
+  .exit {
+    position: relative;
+    right: -45vw;
+  }
+
+  .menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0;
+  }
+
+  .menu ul>li,
+  li>a {
+    padding: 3vw 3vw;
+    width: 100%;
+    text-decoration: none;
+    color: #212429;
+  }
+
+  .menu ul>li:hover  {
+    background-color: rgba(100, 100, 100, 0.2);
   }
 }
