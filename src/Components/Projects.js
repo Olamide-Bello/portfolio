@@ -80,6 +80,7 @@ const Projects = () => {
                                 <FontAwesomeIcon icon={faArrowUpRightFromSquare} fade style={{ color: "#000000", }} />
                             </a>
                         </p>
+                        <p>A drag and drop gallery</p>
                         <i className="devicon-react-original-wordmark project-icon"></i>
                         <i className="devicon-firebase-plain-wordmark project-icon"></i>
                         <i className="devicon-javascript-plain project-icon"></i>

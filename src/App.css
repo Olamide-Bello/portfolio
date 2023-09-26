@@ -181,6 +181,10 @@ nav>ul>li>a:hover {
   object-fit: cover;
 }
 
+.project>div>p:first-of-type {
+  font-size: 1.5vw;
+}
+
 .project-icon {
   font-size: 2vw;
   margin-right: 1vw;
