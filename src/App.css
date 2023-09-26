@@ -343,6 +343,10 @@ nav>ul>li>a:hover {
     font-size: 3vw;
   }
 
+  .skills {
+    margin-bottom: 10vw;
+  }
+
   .skills-container {
     grid-template-columns: auto auto;
     gap: 3vw;
