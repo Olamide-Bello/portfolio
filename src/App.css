@@ -353,6 +353,7 @@ nav>ul>li>a:hover {
     right: 0;
     background-color: #fff;
     padding: 5vw 4vw;
+    z-index: 99999;
   }
 
   .exit {
