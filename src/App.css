@@ -212,6 +212,10 @@ nav>ul>li>a:hover {
 
 
 @media(max-width: 780px) {
+  nav {
+    gap: 20vw;
+  }
+
   nav>ul {
     display: none;
   }
