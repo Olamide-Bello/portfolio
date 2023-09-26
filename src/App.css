@@ -210,7 +210,10 @@ nav>ul>li>a:hover {
   }
 
   .profile {
-    flex-direction: column-reverse;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vw;
   }
 
   .profile-dt>h1:first-of-type {
