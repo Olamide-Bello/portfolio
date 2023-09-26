@@ -1,6 +1,7 @@
 body {
   font-family: 'Courier New', Courier, monospace;
 }
+
 .hero {
   height: 100vh;
   background-color: #f5ead6;
@@ -64,7 +65,7 @@ nav>ul>li>a:hover {
   height: 100%;
   object-fit: cover;
   border-radius: 15px;
-  border: 5px #fec55c solid ;
+  border: 5px #fec55c solid;
 
 }
 
@@ -190,6 +191,8 @@ nav>ul>li>a:hover {
   display: grid;
   grid-template-columns: auto auto auto auto;
   gap: 3vw;
+  justify-content: center;
+  align-items: center;
 }
 
 .skills-container>div {
@@ -201,3 +204,123 @@ nav>ul>li>a:hover {
   text-align: center;
 }
 
+@media(max-width: 780px) {
+  nav ul {
+    display: none;
+  }
+
+  .profile {
+    flex-direction: column-reverse;
+  }
+
+  .profile-dt>h1:first-of-type {
+    font-size: 5.5vw;
+  }
+
+  .profile-dt>h1:last-of-type {
+    font-size: 4.4vw;
+  }
+
+  .portrait {
+    width: 70vw;
+    height: 50vw;
+  }
+
+  .about {
+    flex-direction: column;
+    margin-bottom: 10vw;
+  }
+
+  .about-dt {
+    width: 100%;
+  }
+
+  .card-header {
+    display: flex;
+    gap: 4vw;
+    padding: 4vw 6vw;
+  }
+
+  .div1,
+  .div2,
+  .div3 {
+    width: 3vw;
+    height: 3vw;
+    border-radius: 3vw;
+  }
+
+  .card-body {
+    line-height: 120%;
+    font-size: 4vw;
+    padding: 6vw;
+  }
+
+  .download-container {
+    margin-top: 5vw;
+    width: 100%;
+  }
+
+  .download-container>button {
+    padding: 3vw 5vw;
+    font-size: 4.4vw;
+  }
+
+  .projects-container {
+    grid-template-columns: auto auto;
+    gap: 4vw;
+  }
+
+  .project {
+    width: 40vw;
+    height: auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw;
+  }
+
+  .project>img {
+    width: 40vw;
+    height: 35vw;
+    object-fit: cover;
+  }
+
+  .project-icon {
+    font-size: 5vw;
+    margin-right: 3vw;
+  }
+
+  .project>div>p:first-of-type {
+    font-size: 4vw;
+  }
+
+  .project>div>p:last-of-type {
+    font-size: 3vw;
+  }
+
+  .fa-arrow-up-right-from-square {
+    font-size: 3vw;
+  }
+
+  .skills-container {
+    grid-template-columns: auto auto;
+    gap: 3vw;
+  }
+
+  .skills-container>div {
+    background-color: #f5ead6;
+    width: 25vw;
+    height: 20vw;
+    padding-top: 3vw;
+  }
+
+  .projects {
+    padding-bottom: 10vw;
+  }
+
+  .about-container>h3,
+  .projects>h3,
+  .skills>h3 {
+    font-size: 4.4vw;
+  }
+}
