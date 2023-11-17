@@ -38,7 +38,7 @@ const Projects = () => {
                     <img src={HelpMeOut} alt='helpmeout' />
                     <div>
                         <p className="project-title-settings">HelpMeOut &nbsp;
-                            <a href="https://www.helpmeout.tech/" target="_blank" rel="noopener noreferrer" className="link-href">
+                            <a href="https://helpmeout.tech/" target="_blank" rel="noopener noreferrer" className="link-href">
                                 <FontAwesomeIcon icon={faArrowUpRightFromSquare} fade style={{ color: "#000000", }} />
                             </a>
                         </p>
