@@ -13,7 +13,7 @@ const Profile = () => {
           <h1>Bello Olamide Akinniyi</h1>
           <Typewriter
             options={{
-              strings: ['Frontend Developer'],
+              strings: ['Web Developer'],
               autoStart: true,
               loop: true,
             }}
