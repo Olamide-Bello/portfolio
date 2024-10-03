@@ -5,7 +5,7 @@ import Monvid from '../Assets/Monvid.png'
 import Movies from '../Assets/Movies.png'
 import Taskboard from '../Assets/Taskboard.png'
 import PixelSwap from '../Assets/Pixelswap.png'
-import Admin from '../Assets/Admin.png'
+// import Admin from '../Assets/Admin.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 import { Fade } from 'react-awesome-reveal'
